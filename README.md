@@ -18,8 +18,11 @@ from those apps' own config files. The only thing you paste is a Jellyfin API ke
 
 1. Open the umbrelOS **App Store**.
 2. Click the **⋯** button (top right) and choose **Community App Stores**.
-3. Paste `https://github.com/sam-apostel/umbrel-apps` and click **Add**.
+3. Paste `https://github.com/sam-apostel/couchfin-umbrel-apps` and click **Add**.
 4. Open the **Couchfin App Store** and install the apps.
+
+If you added this store when it was still called `sam-apostel/umbrel-apps`, nothing needs to change:
+GitHub redirects the old address to this repository.
 
 Sonarr, Radarr and Transmission (and Jellyfin for Maintainerr) must be installed first; umbrelOS
 enforces this through the apps' `dependencies`.
